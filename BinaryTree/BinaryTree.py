@@ -26,4 +26,7 @@ two.left = four
 two.right = three
 five.right = six
 
-print(Node.count_elements(one))
+assert Node.count_elements(one) == 6
+assert Node.count_elements(two) == 3
+assert Node.count_elements(None) == 0
+assert Node.count_elements(six) == 1

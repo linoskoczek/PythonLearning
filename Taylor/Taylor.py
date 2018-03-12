@@ -110,5 +110,5 @@ def app():
 
 
 test_degrees()
-test_degrees()
+test_radians()
 app()

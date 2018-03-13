@@ -33,15 +33,10 @@ def decrease_degree_value_recurrent(given_input):
 
 
 def decrease_radian_value(rad):
-    while rad >= 2 * pi:
-        rad -= 2 * pi
-    return rad
-
+    return rad % (2*pi)
 
 def decrease_degree_value(deg):
-    while deg >= 180:
-        deg -= 180
-    return deg
+    return deg % 180
 
 
 def reduce_to_pi_by_two(x):
@@ -59,7 +54,6 @@ def reduce_to_pi_by_two(x):
 
 def taylor_sin(x, iter_number):
     x = reduce_to_pi_by_two(x)
-    print(x)
     square = x
     factorial = 1
     result = 0
@@ -79,21 +73,23 @@ def taylor_sin(x, iter_number):
 def test_radians():
     for i in range(100):
         x = decrease_radian_value(random() * 1000)
-        dupa1 = taylor_sin(x, 7)
-        dupa2 = sin(x)
-        error = approximation_error(dupa1, dupa2)
-        print("For", x, "error is equal to", approximation_error(dupa1, dupa2))
+        val1 = taylor_sin(x, 7)
+        val2 = sin(x)
+        error = approximation_error(val1, val2)
+        # print("For", x, "error is equal to", approximation_error(val1, val2))
         assert error < 0.01
+    print("Radians test finished")
 
 
 def test_degrees():
     for i in range(100):
         x = radians(decrease_degree_value(random() * 1000))
-        dupa1 = taylor_sin(x, 7)
-        dupa2 = sin(x)
-        error = approximation_error(dupa1, dupa2)
-        print("For", x, "error is equal to", approximation_error(dupa1, dupa2))
+        val1 = taylor_sin(x, 7)
+        val2 = sin(x)
+        error = approximation_error(val1, val2)
+        # print("For", x, "error is equal to", approximation_error(val1, val2))
         assert error < 0.01
+    print("Degrees test finished")
 
 
 def app():

@@ -18,22 +18,9 @@ def convert_num_if_needed(given_input, given_option):
         raise ValueError('Wrong option given!')
 
 
-def decrease_radian_value_recurrent(given_input):
-    if given_input >= 2 * pi:
-        return decrease_radian_value_recurrent(given_input - 2 * pi)
-    else:
-        return given_input
-
-
-def decrease_degree_value_recurrent(given_input):
-    if given_input >= 180:
-        return decrease_degree_value_recurrent(given_input - 180)
-    else:
-        return given_input
-
-
 def decrease_radian_value(rad):
     return rad % (2*pi)
+
 
 def decrease_degree_value(deg):
     return deg % 180

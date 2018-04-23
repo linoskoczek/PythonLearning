@@ -1,0 +1,26 @@
+US NCAP
+
+Das US NCAP (US New Car Assessment Program) ist ein herstellerunabhängiges Crashtest-Programm. Es ist vergleichbar mit dem Euro NCAP, allerdings gibt es einige Unterschiede im Versuchsaufbau und es wird eine größere Anzahl von Versuchen durchgeführt.
+
+Die meisten Crashtests nach dem US-NCAP-Verfahren werden von der US-amerikanischen Regierungsbehörde National Highway Traffic Safety Administration (NHTSA) durchgeführt. Das Insurance Institute for Highway Safety (IIHS), eine private, von verschiedenen Kfz-Versicherungen gegründete Organisation führt dagegen Offset-Crashtests nach Euro-NCAP-Muster durch, anhand derer sie Risikobewertungen für verschiedene Fahrzeugtypen ermittelt.
+Inhaltsverzeichnis
+
+    1 Unterschiede
+        1.1 Frontaufprall
+        1.2 Auswertung
+    2 Weblinks
+    3 Einzelnachweise
+
+Unterschiede
+
+Für die verschiedenen Testelemente können die aufgeführten Unterschiede zum Euro NCAP festgestellt werden.
+Frontaufprall
+
+Die Geschwindigkeit beträgt statt 64 km/h (Euro NCAP) 56,3 km/h (35 mph), die Barriere (stellvertretend für den Unfallgegner) ist im Gegensatz zum Euro NCAP keine deformierbare Barriere, sondern eine starre ("Betonwand"). Das Fahrzeug trifft die Barriere mit einer Überdeckung von 100 % (Euro NCAP 40 %).
+Auswertung
+
+Wichtigste Merkmale für die Auswertung der von der NHTSA durchgeführten Tests sind das Head Injury Criterion (HIC) sowie die Belastungen auf Brust und Oberschenkelknochen von Fahrer und Beifahrer.
+
+Auf Grundlage der Messergebnisse stellt die NHTSA eine Risikobewertung für Fahrzeuge auf und vergibt wie beim Euro-NCAP eine "Stern"-Bewertung für das Fahrzeug von einem bis fünf Sternen. Anders als beim Euro-NCAP ist die Sternwertung jedoch kein Produkt einer Punktbewertung für die Belastung einzelner Körperteile, sondern gibt die Wahrscheinlichkeit einer schweren Verletzung wieder. Bei einer maximalen Bewertung von fünf Sternen wird die Wahrscheinlichkeit von schweren Verletzungen auf unter 5 % angesetzt. Die schlechteste Bewertung von einem Stern bedeutet eine Wahrscheinlichkeit von mehr als 25 %.
+
+Aufgrund der unterschiedlichen Testanordnungen ergeben sich mehrfach Diskrepanzen zwischen den nach US NCAP und Euro-NCAP erzielten Testergebnissen. So erhält das 2006er Modell des Chevrolet Aveo nach dem Euro-NCAP-Test lediglich einen Stern (Ein zweiter wurde aufgrund der extremen Belastungen nachträglich gestrichen)[1], nach dem US-NCAP-Test jedoch vier.

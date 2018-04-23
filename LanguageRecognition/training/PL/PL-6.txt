@@ -1,0 +1,47 @@
+Z-Wave
+
+Z-Wave − protokół bezprzewodowy służący do połączenia w jedną, zdalnie sterowaną sieć wykorzystywany w systemach inteligentnego zarządzania budynkiem.
+Ideą protokołu z-wave jest synchronizacja urządzeń automatyki domowej w topologii mesh, tak zwanej sieci kratowej. Każde urządzenie komunikuje się z centralą inteligentnego zarządzania będąc zarazem przekaźnikiem sygnału dla innych urządzeń. Umożliwia to zbudowanie bezprzewodowej sieci zarządzania budynkiem o cztery razy większym zasięgu niż zasięg połączenia pomiędzy dwoma urządzeniami z-wave. Wyjątkiem są urządzenia zasilane bateryjnie, które za względu na oszczędność źródła zasilania mają wyłączoną możliwość przekazywania sygnału. System charakteryzuje się cechą która umożliwia instalację inteligentnego zarządzania budynkiem, nie wymagającą ingerencji w strukturę budynku i instalację elektryczną.
+
+Spis treści
+
+    1 Historia
+    2 Specyfikacja techniczna
+    3 Zastosowanie
+    4 Przypisy
+    5 Linki zewnętrzne
+
+Historia
+
+Twórcą oraz właścicielem technologii z-wave jest duńska firma Zensys. Protokół zyskał popularność od czasu kiedy w roku 2005 członkowie firm INTERMATIC, Leviton, Wayne Dalton, Danfoss i Universal Electronics spotkali się, by ustalić wspólną częstotliwość i protokół transmisji danych do sterowania swoich urządzeń. Ustalono że najlepszym rozwiązaniem będzie protokół z-wave, po czym przystąpili do rozmów z właścicielem firmy Zensys. Tak powstało stowarzyszenie z-wave Alliance, do którego przystępują firmy chcące sterować swoimi urządzeniami za pomocą tego właśnie protokołu. W chwili obecnej (grudzień 2012) do stowarzyszenia z-wave Alliance należy ponad 300 firm produkujących urządzenia automatyki domowej i przemysłowej.
+Specyfikacja techniczna
+
+Częstotliwość:
+865,22 MHz - Indie
+868,10 MHz - Malezja
+868,42 MHz - Europa, Singapur
+890,00 MHz - Rosja
+908,42 MHz - Ameryka
+919,82 MHz - Chiny
+921,42 MHz - Australia, Nowa Zelandia, Brazylia
+951-956 MHz - Japonia
+Prędkość transmisji; (kb/s) 9,4; 40-w układach serii 200; 200- w układach serii 400
+Zasięg; do 100 m w warunkach idealnych
+Zastosowanie
+
+    Sterowanie ogrzewaniem
+    Sterowanie oświetleniem
+    Symulacja obecności
+    Sterowanie oknami
+    Sterowanie roletami, żaluzjami
+    Sterowanie bramą
+    Sterowanie karniszami
+    Systemy alarmowe
+    Powiadamianie pożarowe
+    Ostrzeganie o ulatniającym się gazie
+    Ostrzeganie o zalaniu
+    Sterowanie sprzętem RTV i AGD
+    Sterowanie podlewaniem
+    System sterowania oddymianiem pożarowym
+    Sterowanie wentylacją
+    Monitoring video

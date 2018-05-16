@@ -79,4 +79,4 @@ def flowers_to_list(file):
 train_flowers = flowers_to_list('iris/train.txt')
 test_flowers = flowers_to_list('iris/test.txt')
 
-knn(3, train_flowers, test_flowers)
+knn(10, train_flowers, test_flowers)

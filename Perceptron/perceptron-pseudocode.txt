@@ -1,0 +1,16 @@
+func number output(&W[], &X[], threshold) {
+	wtx = 0
+	for w,x in W, X:
+		wtx += w * x
+
+	return wtx >= threshold
+}
+
+func void update_weights(&y, &d, &W[], &X[], &alpha, &threshold) {
+	multiplier = (d - y) * alpha
+
+	for w,x in W, X:
+		w += multiplier * x
+
+	threshold -= multiplier
+}

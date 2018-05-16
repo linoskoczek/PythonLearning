@@ -1,0 +1,35 @@
+class Cluster {
+	id
+	Point centroid
+	points[]
+}
+
+class Point {
+	coordinates[]
+}
+
+func int dst(Point X, Point Y) {
+	sum = 0
+	for x,y in X,centroid,Y.centroid:
+		sum+= (x-y)**2
+}
+
+k = //get from user
+points[] = //get from user
+clusters[k] = [ new Cluster(k) * k ]
+
+// assign centroids
+for i = 0 to k:
+	clusters[i].centroid = points[i]
+	
+do {
+	for c in clusters:
+		points = []
+
+	for point in points:
+		distances <Cluster, Int >
+		for c in clusters:
+			distances.put(c, dst(point, c.centroid))
+		min(distances).points.put(point)
+
+} while( there_are_changes_in_clustering_since_last_one )

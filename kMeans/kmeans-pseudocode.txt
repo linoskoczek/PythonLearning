@@ -27,7 +27,7 @@ do {
 		points = []
 
 	for point in points:
-		distances <Cluster, Int >
+		distances <Cluster, Number>
 		for c in clusters:
 			distances.put(c, dst(point, c.centroid))
 		min(distances).points.put(point)

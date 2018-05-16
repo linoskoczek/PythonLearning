@@ -12,7 +12,7 @@ k = //get from user
 
 
 Cluster knn(&points_to_clusters, &pointX, k) {
-	distances <Point, Int>
+	distances <Point, Number>
 
 	for point in points_to_clusters.keys():
 		temp_distance = 0

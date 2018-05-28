@@ -11,8 +11,8 @@ def sum_w_v(vector):
     sum_weights = 0
     for b in range(item_number):
         if get_bit(vector, b) == 1:
-            sum_values += items[b][0]
-            sum_weights += items[b][1]
+            sum_values += items[item_number - b - 1][0]
+            sum_weights += items[item_number - b - 1][1]
 
     if sum_weights > capacity:
         return None

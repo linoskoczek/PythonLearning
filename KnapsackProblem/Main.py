@@ -6,20 +6,17 @@ def get_bit(num, n):
     return (num >> n) & 1
 
 
-def sum_of(bits, items, column):
-    _sum = 0
-    for n, v in enumerate(bits):
-        if v:
-            _sum += items[n][column]
-    return _sum
+def sum_w_v(vector):
+    sum_values = 0
+    sum_weights = 0
+    for b in range(item_number):
+        if get_bit(vector, b) == 1:
+            sum_values += items[b][0]
+            sum_weights += items[b][1]
 
-
-def sum_weights(bits, items):
-    return sum_of(bits, items, 1)
-
-
-def sum_values(bits, items):
-    return sum_of(bits, items, 0)
+    if sum_weights > capacity:
+        return None
+    return sum_values
 
 
 capacity = None
@@ -42,8 +39,6 @@ for i, line in enumerate(open('15small')):
 item_number = len(items)
 possibilities = 2 ** item_number
 
-char_vector = []
-
 print("Capacity:", capacity)
 print("Items:", items)
 
@@ -53,22 +48,11 @@ current_max = 0
 current_best_solution = None
 
 for v in range(possibilities):
-    binary = bin(v)
-    bits = [False for i in range(item_number)]
-    t_vector = v
-    for i in range(item_number):
-        bits[item_number - 1 - i] = True if t_vector & 1 else False
-        t_vector = t_vector >> 1
-    sum_of_weights = sum_weights(bits, items)
-    if sum_of_weights < capacity:
-        char_vector.append(v)
-        sum_of_values = sum_values(bits, items)
-        if sum_of_values > current_max:
-            current_max = sum_of_values
-            current_best_solution = bits
+    result = sum_w_v(v)
+    if result is not None and result > current_max:
+        current_max = result
+        current_best_solution = v
 
-print("New vector: \n", char_vector)
-print("Removed", possibilities - len(char_vector), "potential solutions")
-print("Best solution is ", current_best_solution, "with value of", current_max)
+print("Best solution is ", bin(current_best_solution), "with value of", current_max)
 
 print("it took %s seconds for a program" % (time.time() - start_time))
